@@ -18,6 +18,21 @@ export default function Home() {
         </h5>
       </section>
 
+      <section className='mt-10 mb-20'>
+        <h4 className='text-xl font-bold mb-5'>970 x 90 - Static</h4>
+        <a
+          href='http://www.transtechsys.com/products/digitalAC'
+          target='_blank'
+        >
+          <img src='/AC970x90Static.png' alt='970x90' className='w-[970px]' />
+        </a>
+        <h5 className='mt-3'>
+          <a href='/AC970x90StaticEx.png' target='_blank'>
+            Example Placement
+          </a>
+        </h5>
+      </section>
+
       <h2 className='text-5xl font-bold'>Asphalt Pro Web Banner</h2>
 
       <section className='my-20'>
@@ -33,7 +48,7 @@ export default function Home() {
           />
         </a>
         <h5 className='mt-3'>
-          <a href='/AC970x90AnimatedEx.png' target='_blank'>
+          <a href='/AP300x300AnimatedEx.png' target='_blank'>
             Example Placement
           </a>
         </h5>
@@ -54,7 +69,7 @@ export default function Home() {
           />
         </a>
         <h5 className='mt-3'>
-          <a href='/AC970x90AnimatedEx.png' target='_blank'>
+          <a href='/asphaltProWebBanner640x220Ex.png' target='_blank'>
             Example Placement
           </a>
         </h5>
@@ -101,37 +116,6 @@ export default function Home() {
           </a>
         </h5>
       </section>
-
-      {/* <section className='my-10'>
-        <h4 className='text-xl font-bold mb-5'>728 x 90</h4>
-        <a href='http://www.transtechsys.com/products/pqi380' target='_blank'>
-          <img src='/AC728x90Animated.gif' alt='728x90' className='w-[728px]' />
-        </a>
-        <h5 className='mt-3'>
-          <a href='/AC728x90AnimatedEx.png' target='_blank'>
-            Example Placement
-          </a>
-        </h5>
-      </section> */}
-
-      {/* <section className='my-10'>
-        <h4 className='text-xl font-bold mb-5'>300 x 600</h4>
-        <a href='http://www.transtechsys.com/products/pqi380' target='_blank'>
-          <img src='/AC600x300Static.png' alt='600x300' className='w-[300px]' />
-        </a>
-        <h5 className='mt-3'>
-          <a href='/AC600x300StaticEx.png' target='_blank'>
-            Example Placement
-          </a>
-        </h5>
-      </section> */}
-
-      {/* <section className='my-10'>
-        <h4 className='text-xl font-bold mb-5'>300 x 50</h4>
-        <a href='http://www.transtechsys.com/products/pqi380' target='_blank'>
-          <img src='/AC300x50Static.png' alt='300X50' className='w-[300px]' />
-        </a>
-      </section> */}
     </div>
   );
 }
