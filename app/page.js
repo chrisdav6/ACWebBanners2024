@@ -18,7 +18,7 @@ export default function Home() {
         </h5>
       </section>
 
-      <section className='mt-10 mb-20'>
+      <section className='mt-1 mb-20'>
         <h4 className='text-xl font-bold mb-5'>970 x 90 - Static</h4>
         <a
           href='http://www.transtechsys.com/products/digitalAC'
@@ -54,14 +54,28 @@ export default function Home() {
         </h5>
       </section>
 
-      <h2 className='text-5xl font-bold'>Asphalt Pro Email ToolTip</h2>
-
-      <section className='my-20'>
-        <h4 className='text-xl font-bold mb-5'>640 x 220 - Static</h4>
+      <section className='mt-1 mb-20'>
+        <h4 className='text-xl font-bold mb-5'>300 x 300 - Static</h4>
         <a
           href='http://www.transtechsys.com/products/digitalAP'
           target='_blank'
         >
+          <img src='/AP300x300Static.png' alt='300x300' className='w-[300px]' />
+        </a>
+        <h5 className='mt-3'>
+          <a href='/AP300x300StaticEx.png' target='_blank'>
+            Example Placement
+          </a>
+        </h5>
+      </section>
+
+      <h2 className='text-5xl font-bold'>Asphalt Pro Email ToolTip</h2>
+
+      <section className='my-20'>
+        <h4 className='text-xl font-bold mb-5'>
+          640 x 220 - Static TransTech Only
+        </h4>
+        <a href='http://www.transtechsys.com/products/pqi380' target='_blank'>
           <img
             src='/asphaltProWebBanner640x220.png'
             alt='640x220'
