@@ -77,19 +77,19 @@ export default function Home() {
       <h2 className='text-5xl font-bold'>NAPA Web Banner</h2>
 
       <section className='my-20'>
-        <h4 className='text-xl font-bold mb-5'>300 x 250 - Animated</h4>
+        <h4 className='text-xl font-bold mb-5'>300 x 250 - Static</h4>
         <a
           href='http://www.transtechsys.com/products/digitalNAPA'
           target='_blank'
         >
           <img
-            src='/NAPA300x250Animated.gif'
+            src='/NAPA300x250Static.png'
             alt='300x250'
             className='w-[300px]'
           />
         </a>
         <h5 className='mt-3'>
-          <a href='/AC300x250AnimatedEx.png' target='_blank'>
+          <a href='/NAPA300x250StaticEx.png' target='_blank'>
             Example Placement
           </a>
         </h5>
@@ -98,19 +98,19 @@ export default function Home() {
       <h2 className='text-5xl font-bold'>TXAPA Web Banner</h2>
 
       <section className='my-20'>
-        <h4 className='text-xl font-bold mb-5'>300 x 250 - Animated</h4>
+        <h4 className='text-xl font-bold mb-5'>300 x 250 - Static</h4>
         <a
           href='http://www.transtechsys.com/products/digitalTXAPA'
           target='_blank'
         >
           <img
-            src='/TXAPA300x250Animated.gif'
+            src='/TXAPA300x250Static.png'
             alt='300x250'
             className='w-[300px]'
           />
         </a>
         <h5 className='mt-3'>
-          <a href='/AC300x250AnimatedEx.png' target='_blank'>
+          <a href='/TXAPA300x250StaticEx.png' target='_blank'>
             Example Placement
           </a>
         </h5>
