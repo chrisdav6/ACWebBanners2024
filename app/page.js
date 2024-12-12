@@ -3,7 +3,7 @@ export default function Home() {
     <div className='flex flex-col items-center mt-10 mb-20'>
       <h2 className='text-5xl font-bold'>Asphalt Contractor Web Banner</h2>
 
-      <section className='mt-1 mb-20 mt-20'>
+      <section className='mb-20 mt-20'>
         <h4 className='text-xl font-bold mb-5'>970 x 90 - Static</h4>
         <a
           href='http://www.transtechsys.com/products/digitalAC'
@@ -20,7 +20,7 @@ export default function Home() {
 
       <h2 className='text-5xl font-bold'>Asphalt Pro Web Banner</h2>
 
-      <section className='mt-1 mt-20'>
+      <section className='mt-20'>
         <h4 className='text-xl font-bold mb-5'>300 x 300 - Static</h4>
         <a
           href='http://www.transtechsys.com/products/digitalAP'
@@ -114,6 +114,18 @@ export default function Home() {
             Example Placement
           </a>
         </h5>
+      </section>
+
+      <h2 className='text-5xl font-bold'>Animation Example</h2>
+
+      <section className='my-20'>
+        <h4 className='text-xl font-bold mb-5'>970 x 90</h4>
+        <a
+          href='http://www.transtechsys.com/products/digitalAC'
+          target='_blank'
+        >
+          <img src='/animationExample.gif' alt='970x90' className='w-[970px]' />
+        </a>
       </section>
     </div>
   );
