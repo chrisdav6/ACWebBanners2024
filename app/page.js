@@ -3,22 +3,7 @@ export default function Home() {
     <div className='flex flex-col items-center mt-10 mb-20'>
       <h2 className='text-5xl font-bold'>Asphalt Contractor Web Banner</h2>
 
-      <section className='my-20'>
-        <h4 className='text-xl font-bold mb-5'>970 x 90 - Animated</h4>
-        <a
-          href='http://www.transtechsys.com/products/digitalAC'
-          target='_blank'
-        >
-          <img src='/AC970x90Animated.gif' alt='970x90' className='w-[970px]' />
-        </a>
-        <h5 className='mt-3'>
-          <a href='/AC970x90AnimatedEx.png' target='_blank'>
-            Example Placement
-          </a>
-        </h5>
-      </section>
-
-      <section className='mt-1 mb-20'>
+      <section className='mt-1 mb-20 mt-20'>
         <h4 className='text-xl font-bold mb-5'>970 x 90 - Static</h4>
         <a
           href='http://www.transtechsys.com/products/digitalAC'
@@ -35,26 +20,7 @@ export default function Home() {
 
       <h2 className='text-5xl font-bold'>Asphalt Pro Web Banner</h2>
 
-      <section className='my-20'>
-        <h4 className='text-xl font-bold mb-5'>300 x 300 - Animated</h4>
-        <a
-          href='http://www.transtechsys.com/products/digitalAP'
-          target='_blank'
-        >
-          <img
-            src='/AP300x300Animated.gif'
-            alt='300x300'
-            className='w-[300px]'
-          />
-        </a>
-        <h5 className='mt-3'>
-          <a href='/AP300x300AnimatedEx.png' target='_blank'>
-            Example Placement
-          </a>
-        </h5>
-      </section>
-
-      <section className='mt-1 mb-20'>
+      <section className='mt-1 my-20'>
         <h4 className='text-xl font-bold mb-5'>300 x 300 - Static</h4>
         <a
           href='http://www.transtechsys.com/products/digitalAP'
