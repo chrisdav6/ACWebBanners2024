@@ -20,7 +20,7 @@ export default function Home() {
 
       <h2 className='text-5xl font-bold'>Asphalt Pro Web Banner</h2>
 
-      <section className='mt-1 my-20'>
+      <section className='mt-1 mt-20'>
         <h4 className='text-xl font-bold mb-5'>300 x 300 - Static</h4>
         <a
           href='http://www.transtechsys.com/products/digitalAP'
@@ -30,6 +30,25 @@ export default function Home() {
         </a>
         <h5 className='mt-3'>
           <a href='/AP300x300StaticEx.png' target='_blank'>
+            Example Placement
+          </a>
+        </h5>
+      </section>
+
+      <section className='mt-10 mb-20'>
+        <h4 className='text-xl font-bold mb-5'>300 x 300 - Static Ver 2</h4>
+        <a
+          href='http://www.transtechsys.com/products/digitalAP'
+          target='_blank'
+        >
+          <img
+            src='/AP300x300StaticVer2.png'
+            alt='300x300'
+            className='w-[300px]'
+          />
+        </a>
+        <h5 className='mt-3'>
+          <a href='/AP300x300StaticExVer2.png' target='_blank'>
             Example Placement
           </a>
         </h5>
