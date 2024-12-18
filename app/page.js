@@ -131,7 +131,7 @@ export default function Home() {
         </h4>
         <a href='http://www.transtechsys.com/products/pqi380' target='_blank'>
           <img
-            src='/asphaltProWebBanner640x220.png'
+            src='adsSent/TransTechAP640x220ToolTip.png'
             alt='640x220'
             className='w-[640px]'
           />
