@@ -65,6 +65,54 @@ export default function Home() {
       </section>
 
       <h2 className='text-5xl font-bold'>
+        Asphalt Contractor Web Banner - 728 x 90
+      </h2>
+
+      <section className='mt-20'>
+        <h4 className='text-xl font-bold mb-5'>728 x 90 - TransTech Static</h4>
+        <a
+          href='http://www.transtechsys.com/products/digitalAC'
+          target='_blank'
+        >
+          <img
+            src='adsSent/TransTechAC728x90Static.png'
+            alt='728x90'
+            className='w-[728px]'
+          />
+        </a>
+      </section>
+
+      <section className='mt-10'>
+        <h4 className='text-xl font-bold mb-5'>728 x 90 - Ames Static</h4>
+        <a
+          href='http://www.transtechsys.com/products/digitalAC'
+          target='_blank'
+        >
+          <img
+            src='adsSent/AmesAC728x90Static.png'
+            alt='728x90'
+            className='w-[728px]'
+          />
+        </a>
+      </section>
+
+      <section className='mb-20 mt-10'>
+        <h4 className='text-xl font-bold mb-5'>
+          728 x 90 - Animated Sent to AC
+        </h4>
+        <a
+          href='http://www.transtechsys.com/products/digitalAC'
+          target='_blank'
+        >
+          <img
+            src='adsSent/TransTechAC728x90.gif'
+            alt='728x90'
+            className='w-[728px]'
+          />
+        </a>
+      </section>
+
+      <h2 className='text-5xl font-bold'>
         Asphalt Contractor Web Banner - 600 x 300
       </h2>
 
