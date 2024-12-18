@@ -1,7 +1,9 @@
 export default function Home() {
   return (
     <div className='flex flex-col items-center mt-10 mb-20'>
-      <h2 className='text-5xl font-bold'>Asphalt Contractor Web Banner</h2>
+      <h2 className='text-5xl font-bold'>
+        Asphalt Contractor Web Banner - 970 x 90
+      </h2>
 
       <section className='mt-20'>
         <h4 className='text-xl font-bold mb-5'>970 x 90 - TransTech Static</h4>
@@ -60,6 +62,54 @@ export default function Home() {
             Example Placement
           </a>
         </h5>
+      </section>
+
+      <h2 className='text-5xl font-bold'>
+        Asphalt Contractor Web Banner - 300 x 50
+      </h2>
+
+      <section className='mt-20'>
+        <h4 className='text-xl font-bold mb-5'>300 x 50 - TransTech Static</h4>
+        <a
+          href='http://www.transtechsys.com/products/digitalAC'
+          target='_blank'
+        >
+          <img
+            src='adsSent/TransTechAC300x50Static.png'
+            alt='300x50'
+            className='w-[300px]'
+          />
+        </a>
+      </section>
+
+      <section className='mt-10'>
+        <h4 className='text-xl font-bold mb-5'>300 x 50 - Ames Static</h4>
+        <a
+          href='http://www.transtechsys.com/products/digitalAC'
+          target='_blank'
+        >
+          <img
+            src='adsSent/AmesAC300x50Static.png'
+            alt='300x50'
+            className='w-[300px]'
+          />
+        </a>
+      </section>
+
+      <section className='mb-20 mt-10'>
+        <h4 className='text-xl font-bold mb-5'>
+          300 x 50 - Animated Sent to AC
+        </h4>
+        <a
+          href='http://www.transtechsys.com/products/digitalAC'
+          target='_blank'
+        >
+          <img
+            src='adsSent/TransTechAC300x50.gif'
+            alt='300x50'
+            className='w-[300px]'
+          />
+        </a>
       </section>
 
       <h2 className='text-5xl font-bold'>Asphalt Pro Web Banner</h2>
