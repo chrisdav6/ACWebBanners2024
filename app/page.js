@@ -365,7 +365,7 @@ export default function Home() {
           target='_blank'
         >
           <img
-            src='adsSent/amesNAPA300x250Static.png'
+            src='adsSent/AmesNAPA300x250Static.png'
             alt='300x250'
             className='w-[300px]'
           />
@@ -414,7 +414,7 @@ export default function Home() {
           target='_blank'
         >
           <img
-            src='adsSent/amesTXAPA300x250Static.png'
+            src='adsSent/AmesTXAPA300x250Static.png'
             alt='300x250'
             className='w-[300px]'
           />
