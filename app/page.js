@@ -65,6 +65,54 @@ export default function Home() {
       </section>
 
       <h2 className='text-5xl font-bold'>
+        Asphalt Contractor Web Banner - 600 x 300
+      </h2>
+
+      <section className='mt-20'>
+        <h4 className='text-xl font-bold mb-5'>600 x 300 - TransTech Static</h4>
+        <a
+          href='http://www.transtechsys.com/products/digitalAC'
+          target='_blank'
+        >
+          <img
+            src='adsSent/TransTechAC600x300Static.png'
+            alt='600x300'
+            className='w-[300px]'
+          />
+        </a>
+      </section>
+
+      <section className='mt-10'>
+        <h4 className='text-xl font-bold mb-5'>600 x 300 - Ames Static</h4>
+        <a
+          href='http://www.transtechsys.com/products/digitalAC'
+          target='_blank'
+        >
+          <img
+            src='adsSent/AmesAC600x300Static.png'
+            alt='600x300'
+            className='w-[300px]'
+          />
+        </a>
+      </section>
+
+      <section className='mb-20 mt-10'>
+        <h4 className='text-xl font-bold mb-5'>
+          600 x 300 - Animated Sent to AC
+        </h4>
+        <a
+          href='http://www.transtechsys.com/products/digitalAC'
+          target='_blank'
+        >
+          <img
+            src='adsSent/TransTechAC600x300.gif'
+            alt='600x300'
+            className='w-[300px]'
+          />
+        </a>
+      </section>
+
+      <h2 className='text-5xl font-bold'>
         Asphalt Contractor Web Banner - 300 x 250
       </h2>
 
@@ -281,18 +329,6 @@ export default function Home() {
             Example Placement
           </a>
         </h5>
-      </section>
-
-      <h2 className='text-5xl font-bold'>Animation Example</h2>
-
-      <section className='my-20'>
-        <h4 className='text-xl font-bold mb-5'>970 x 90</h4>
-        <a
-          href='http://www.transtechsys.com/products/digitalAC'
-          target='_blank'
-        >
-          <img src='/animationExample.gif' alt='970x90' className='w-[970px]' />
-        </a>
       </section>
     </div>
   );
