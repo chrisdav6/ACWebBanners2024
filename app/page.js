@@ -339,14 +339,14 @@ export default function Home() {
 
       <h2 className='text-5xl font-bold'>NAPA Web Banner</h2>
 
-      <section className='my-20'>
-        <h4 className='text-xl font-bold mb-5'>300 x 250 - Static</h4>
+      <section className='mt-20'>
+        <h4 className='text-xl font-bold mb-5'>300 x 250 - TransTech Static</h4>
         <a
           href='http://www.transtechsys.com/products/digitalNAPA'
           target='_blank'
         >
           <img
-            src='/NAPA300x250Static.png'
+            src='adsSent/TransTechNAPA300x250Static.png'
             alt='300x250'
             className='w-[300px]'
           />
@@ -356,6 +356,34 @@ export default function Home() {
             Example Placement
           </a>
         </h5>
+      </section>
+
+      <section className='mt-10'>
+        <h4 className='text-xl font-bold mb-5'>300 x 250 - Ames Static</h4>
+        <a
+          href='http://www.transtechsys.com/products/digitalNAPA'
+          target='_blank'
+        >
+          <img
+            src='adsSent/amesNAPA300x250Static.png'
+            alt='300x250'
+            className='w-[300px]'
+          />
+        </a>
+      </section>
+
+      <section className='mt-10 mb-20'>
+        <h4 className='text-xl font-bold mb-5'>300 x 250 - Sent to NAPA</h4>
+        <a
+          href='http://www.transtechsys.com/products/digitalNAPA'
+          target='_blank'
+        >
+          <img
+            src='adsSent/TransTechNAPA300x250.gif'
+            alt='300x250'
+            className='w-[300px]'
+          />
+        </a>
       </section>
 
       <h2 className='text-5xl font-bold'>TXAPA Web Banner</h2>
