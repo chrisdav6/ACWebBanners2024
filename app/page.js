@@ -65,12 +65,16 @@ export default function Home() {
       <h2 className='text-5xl font-bold'>Asphalt Pro Web Banner</h2>
 
       <section className='mt-20'>
-        <h4 className='text-xl font-bold mb-5'>300 x 300 - Static</h4>
+        <h4 className='text-xl font-bold mb-5'>300 x 300 - TransTech Static</h4>
         <a
           href='http://www.transtechsys.com/products/digitalAP'
           target='_blank'
         >
-          <img src='/AP300x300Static.png' alt='300x300' className='w-[300px]' />
+          <img
+            src='adsSent/TransTechAP300x300Static.png'
+            alt='300x300'
+            className='w-[300px]'
+          />
         </a>
         <h5 className='mt-3'>
           <a href='/AP300x300StaticEx.png' target='_blank'>
@@ -79,14 +83,35 @@ export default function Home() {
         </h5>
       </section>
 
-      <section className='mt-10 mb-20'>
-        <h4 className='text-xl font-bold mb-5'>300 x 300 - Static Ver 2</h4>
+      <section className='mt-10'>
+        <h4 className='text-xl font-bold mb-5'>300 x 300 - Ames Static</h4>
         <a
           href='http://www.transtechsys.com/products/digitalAP'
           target='_blank'
         >
           <img
-            src='/AP300x300StaticVer2.png'
+            src='adsSent/AmesAP300x300Static.png'
+            alt='300x300'
+            className='w-[300px]'
+          />
+        </a>
+        <h5 className='mt-3'>
+          <a href='/AP300x300StaticExVer2.png' target='_blank'>
+            Example Placement
+          </a>
+        </h5>
+      </section>
+
+      <section className='mt-10 mb-20'>
+        <h4 className='text-xl font-bold mb-5'>
+          300 x 300 - Animated Sent to AP
+        </h4>
+        <a
+          href='http://www.transtechsys.com/products/digitalAP'
+          target='_blank'
+        >
+          <img
+            src='adsSent/TransTechAP300x300.gif'
             alt='300x300'
             className='w-[300px]'
           />
